@@ -1,0 +1,315 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.text1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 97.5%;
+}
+.head{
+    position: absolute;
+    width: 870px;
+    height: 300px;
+    left: 150px;
+    top: 150px;
+    
+}
+.headimg{
+position: absolute;
+left: 40%;
+top: 1%;
+}
+.button1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 61px;
+    height: 58px;
+    width: 236px;
+    border: 2px solid ;
+    background-color: white;
+    color: #D73424;
+}
+.text2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: 0.61em;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    
+    color: #CE222A;
+
+}
+.banner{
+    background-image:
+    linear-gradient(90deg, #CE222A -40%, rgba(221, 191, 190, 0) 50%),
+    url("../assets/images/banner.png");
+    height: 70vh;
+    width: 100%;
+    margin: 150px 0 150px 0;
+    position: relative;
+    background-position: topleft; 
+     background-repeat: no-repeat; 
+    background-size: contain;
+    overflow: hidden;
+}
+.title2{
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 107%;
+/* or 81px */
+
+
+color: #EB3C34;
+}
+.bannertxt{
+position: absolute;
+width: 728px;
+height: 172px;
+left: 900px;
+top: 150px;
+}
+.text3{
+font-family: 'Poppins', sans-serif;
+font-weight: 100;
+font-size: 25px;
+line-height: 150%;
+padding-right: 200px;
+
+color: #343434;
+}
+.button2{
+border: 2px solid #EB3C34;
+box-sizing: border-box;
+background-color: transparent;
+padding: 0 50px 0 50px;
+border-radius: 61px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 40px;
+text-align: center;
+color: #EB3C34;
+
+}
+.serviceimageDiv{
+    border: 1px solid #EB3C34;
+    width: 300px;
+    height: 300px;
+    border-radius: 37px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.serviceimageDiv:hover{
+    border: 1px solid #EB3C34;
+    width: 300px;
+    height: 300px;
+    border-radius: 37px;
+    background: linear-gradient(139.67deg, #EC1C24 -37.98%, #FF791F 107.1%);
+}
+.serviceContainer{
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+.serviceContainer h3{
+    text-align: center;
+}
+.serviceImage{
+    width: 300px;
+    height: 300px;
+    transition: all 0.3s ease 0s;
+}
+.serviceImage:hover{
+    transform: scale(1.2);
+}
+.banner2{
+    margin-bottom: 150px;
+}
+.banner2 button{    
+    margin-left: 700px;
+}
+.banner2 p{
+color: #8E8E8E;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 51px;
+text-align: center;
+letter-spacing: 0.61em;
+}
+.banner2 h1{
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 75px;
+line-height: 107%;
+/* or 110px */
+text-align: center;
+
+color: #EB3C34;
+}
+.graphHead{
+   display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.graphHead button{
+    border: 1px  solid  #8E8E8E;
+    margin-right: 10px;
+box-sizing: border-box;
+background-color: transparent;
+padding: 10px 100px 10px 100px;
+border-radius: 61px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 40px;
+text-align: center;
+color: #8E8E8E;
+
+}
+.graphCard{
+    padding: 20px 0 20px 0;
+    background: #FFFFFF;
+box-shadow: 7px 7px 10px 5px rgba(0, 0, 0, 0.06);
+border-radius: 60px;
+}
+.graphCard h1{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 107%;
+/* or 110px */
+margin-left: 50px;
+margin-bottom: 40px;
+
+color: #EB3C34;
+}
+.graphHead button:hover{
+    border: 1px solid #EB3C34;
+    color: #EB3C34;
+
+}
+.cardTitle{
+    display: flex;
+}
+.cardTitle p{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: thin;
+font-size: 25px;
+line-height: 58px;
+color: #3E3E3E;
+}
+.cardTitle h5{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 58px;
+/* identical to box height */
+
+margin-left: 50px;
+color: #3E3E3E;
+}
+.graphButton{
+border: 0px none;
+box-sizing: border-box;
+background-color: transparent;
+padding: 0 20px 0 20px;
+border-radius: 61px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 40px;
+text-align: center;
+color: #8E8E8E;
+    
+}
+.graphButton:hover{
+    background-color: #EB3C34;
+    color: white;
+    }
+.graphContent p{
+    color: #8E8E8E;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+}
+.graphContent h5{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+}
+.newsFeed{
+    height: 95vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    background: linear-gradient(130.91deg, #CE222A -18.62%, #FC7F08 138.54%);
+}
+.newsFeed1{
+    padding-top: 100px;
+}
+.newsFeed1 p{
+    color: white;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 51px;
+letter-spacing: 0.61em;
+}
+.newsFeed1 h1{
+font-family: 'Poppins', sans-serif;
+color: white;
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 107%;
+margin-bottom: 50px;
+}
+.socialContainer{
+    display: flex;
+}
+.socialIcon{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    color: #CE222A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.twittFeed{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 500px;
+    border-radius: 5%;
+    height: 600px;
+    background-color: white;
+    margin-left: 100px;
+}
+.testimonial{
+    margin-bottom: 50px;
+    padding: 100px 0 0 250px ;
+}

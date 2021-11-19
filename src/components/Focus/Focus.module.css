@@ -1,0 +1,55 @@
+.imageCar{
+    overflow: hidden;
+    width: 1000px;
+}
+.image{
+    margin: 0 20px 0 20px;
+    width: 450px;
+    height: 500px;
+    border-radius: 10%;
+}
+.focusTitle p{
+    color: #3A3A3A;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 51px;
+letter-spacing: 0.61em;
+}
+.focusTitle h1{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 75px;
+line-height: 107%;
+/* or 110px */
+text-align: left;
+
+color: #EC1C24;
+}
+.focusTitle h3{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 130.5%;
+margin-bottom: 50px;
+
+color: #3A3A3A;
+
+}
+.button2{
+    border: 2px solid #EB3C34;
+box-sizing: border-box;
+background-color: transparent;
+padding: 0 50px 0 50px;
+border-radius: 61px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 40px;
+text-align: center;
+color: #EB3C34;
+}

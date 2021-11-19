@@ -1,0 +1,22 @@
+.blogs p{
+    color: #8E8E8E;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0.61rem;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+text-align: center;
+}
+
+.blogs{
+    margin-bottom: 50px;
+}

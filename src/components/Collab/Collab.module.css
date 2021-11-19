@@ -1,0 +1,29 @@
+.collab h1{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 107%;
+margin-bottom: 50px;
+text-align: center;
+
+color: #EB3C34;
+}
+.collabContainer{
+    padding: 20px 0 0 10px ;
+    width: 120px;
+    height: 120px;
+    background: #FFFFFF;
+    box-shadow: 7px 7px 10px 5px rgba(0, 0, 0, 0.06);
+border-radius: 20px;
+}
+.collabContainer img{
+    width: 90px;
+    height:90px;
+}
+.collab{
+    margin-bottom: 140px;
+}
+.carouselContainer{
+    padding-bottom: 10px;
+}
