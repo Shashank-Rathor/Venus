@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Venus/static/css/main.17228a4d.chunk.css",
-    "main.js": "/Venus/static/js/main.410f81f6.chunk.js",
-    "main.js.map": "/Venus/static/js/main.410f81f6.chunk.js.map",
+    "main.css": "/Venus/static/css/main.7bb759ac.chunk.css",
+    "main.js": "/Venus/static/js/main.b980048b.chunk.js",
+    "main.js.map": "/Venus/static/js/main.b980048b.chunk.js.map",
     "runtime-main.js": "/Venus/static/js/runtime-main.b65a98e2.js",
     "runtime-main.js.map": "/Venus/static/js/runtime-main.b65a98e2.js.map",
     "static/css/2.027e5e63.chunk.css": "/Venus/static/css/2.027e5e63.chunk.css",
-    "static/js/2.b5dfaf30.chunk.js": "/Venus/static/js/2.b5dfaf30.chunk.js",
-    "static/js/2.b5dfaf30.chunk.js.map": "/Venus/static/js/2.b5dfaf30.chunk.js.map",
+    "static/js/2.fb09f1a0.chunk.js": "/Venus/static/js/2.fb09f1a0.chunk.js",
+    "static/js/2.fb09f1a0.chunk.js.map": "/Venus/static/js/2.fb09f1a0.chunk.js.map",
     "index.html": "/Venus/index.html",
     "static/css/2.027e5e63.chunk.css.map": "/Venus/static/css/2.027e5e63.chunk.css.map",
-    "static/css/main.17228a4d.chunk.css.map": "/Venus/static/css/main.17228a4d.chunk.css.map",
-    "static/js/2.b5dfaf30.chunk.js.LICENSE.txt": "/Venus/static/js/2.b5dfaf30.chunk.js.LICENSE.txt",
+    "static/css/main.7bb759ac.chunk.css.map": "/Venus/static/css/main.7bb759ac.chunk.css.map",
+    "static/js/2.fb09f1a0.chunk.js.LICENSE.txt": "/Venus/static/js/2.fb09f1a0.chunk.js.LICENSE.txt",
+    "static/media/Ellipse.581935e7.png": "/Venus/static/media/Ellipse.581935e7.png",
     "static/media/Focus1.a137bf30.png": "/Venus/static/media/Focus1.a137bf30.png",
     "static/media/Focus2.4ab73433.png": "/Venus/static/media/Focus2.4ab73433.png",
     "static/media/Rectangle.8f0ae8d3.png": "/Venus/static/media/Rectangle.8f0ae8d3.png",
@@ -32,14 +33,14 @@
     "static/media/news2.f54f7f4f.png": "/Venus/static/media/news2.f54f7f4f.png",
     "static/media/news3.6e3d14b2.png": "/Venus/static/media/news3.6e3d14b2.png",
     "static/media/styles.css": "/Venus/static/media/revicons.e8746a62.woff",
-    "static/media/test1.6e711d3f.png": "/Venus/static/media/test1.6e711d3f.png",
+    "static/media/test1.722064a9.png": "/Venus/static/media/test1.722064a9.png",
     "static/media/virus.d7dd0179.jpeg": "/Venus/static/media/virus.d7dd0179.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.b65a98e2.js",
     "static/css/2.027e5e63.chunk.css",
-    "static/js/2.b5dfaf30.chunk.js",
-    "static/css/main.17228a4d.chunk.css",
-    "static/js/main.410f81f6.chunk.js"
+    "static/js/2.fb09f1a0.chunk.js",
+    "static/css/main.7bb759ac.chunk.css",
+    "static/js/main.b980048b.chunk.js"
   ]
 }
