@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Venus/static/css/main.7bb759ac.chunk.css",
-    "main.js": "/Venus/static/js/main.b980048b.chunk.js",
-    "main.js.map": "/Venus/static/js/main.b980048b.chunk.js.map",
+    "main.css": "/Venus/static/css/main.3341fee6.chunk.css",
+    "main.js": "/Venus/static/js/main.fbc17206.chunk.js",
+    "main.js.map": "/Venus/static/js/main.fbc17206.chunk.js.map",
     "runtime-main.js": "/Venus/static/js/runtime-main.b65a98e2.js",
     "runtime-main.js.map": "/Venus/static/js/runtime-main.b65a98e2.js.map",
     "static/css/2.027e5e63.chunk.css": "/Venus/static/css/2.027e5e63.chunk.css",
@@ -10,9 +10,10 @@
     "static/js/2.fb09f1a0.chunk.js.map": "/Venus/static/js/2.fb09f1a0.chunk.js.map",
     "index.html": "/Venus/index.html",
     "static/css/2.027e5e63.chunk.css.map": "/Venus/static/css/2.027e5e63.chunk.css.map",
-    "static/css/main.7bb759ac.chunk.css.map": "/Venus/static/css/main.7bb759ac.chunk.css.map",
+    "static/css/main.3341fee6.chunk.css.map": "/Venus/static/css/main.3341fee6.chunk.css.map",
     "static/js/2.fb09f1a0.chunk.js.LICENSE.txt": "/Venus/static/js/2.fb09f1a0.chunk.js.LICENSE.txt",
     "static/media/Ellipse.581935e7.png": "/Venus/static/media/Ellipse.581935e7.png",
+    "static/media/Ellipse2.9c91449e.png": "/Venus/static/media/Ellipse2.9c91449e.png",
     "static/media/Focus1.a137bf30.png": "/Venus/static/media/Focus1.a137bf30.png",
     "static/media/Focus2.4ab73433.png": "/Venus/static/media/Focus2.4ab73433.png",
     "static/media/Rectangle.8f0ae8d3.png": "/Venus/static/media/Rectangle.8f0ae8d3.png",
@@ -40,7 +41,7 @@
     "static/js/runtime-main.b65a98e2.js",
     "static/css/2.027e5e63.chunk.css",
     "static/js/2.fb09f1a0.chunk.js",
-    "static/css/main.7bb759ac.chunk.css",
-    "static/js/main.b980048b.chunk.js"
+    "static/css/main.3341fee6.chunk.css",
+    "static/js/main.fbc17206.chunk.js"
   ]
 }
