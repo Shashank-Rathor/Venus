@@ -22,20 +22,23 @@ const responsive = {
     }
   };
 
+
+
 const Testimonial = (props) => {
     return (
         <div style={{width: "90%"}}>
             <Carousel
-                arrows={false}
                 swipeable={true}
-                draggable={true}
-                slide={true}
+                minimumTouchDrag={5}
+                arrows={false}
+                className = {classes.testCar}
                 responsive={responsive}
+                draggable={true}
                 infinite={true}
                 autoPlay={props.deviceType !== "mobile" ? true : false}
                 autoPlaySpeed={3000}
                 keyBoardControl={true}
-                customTransition="transform 500ms ease-in-out"
+                customTransition="transform fadeInOut 5s"
                 transitionDuration={3000}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
                 deviceType={props.deviceType}
@@ -43,12 +46,12 @@ const Testimonial = (props) => {
                 itemClass="carousel-item-padding-20-px"
             >
                     <div>
-                    <div className={classes.testCar}>
-                          <Row xs="2">
+                    <Container>
+                          <Row xs="2" noGutters >
                             <Col>
-                                <img src={TEST} style={{width: "100%",}}/>
+                                <img src={TEST} style={{width: "100%"}}/>
                             </Col>
-                            <Col>
+                            <div style={{backgroundColor: "white", paddingLeft: "50px"}}>
                                 <div className={classes.testText}>
                                 <h6>Venus’s research pipeline consists of innovative solutions that promise to address some of the world's most challenging issues, including Antimicrobial Resistance, Cancer, and Pain.</h6>
                                 </div>
@@ -57,11 +60,54 @@ const Testimonial = (props) => {
                                   <p>Joint Managing Director,</p>
                                   <p>Venus Remedies Limited</p>
                                 </div>
-                            </Col>
+                            </div>
                         </Row>
-                    </div>
+                    </Container>
+                    
+                    <button className={classes.bar1}/>
+                    </div>  
+                    <div>
+                    <Container>
+                          <Row xs="2" noGutters >
+                            <Col>
+                                <img src={TEST} style={{width: "100%"}}/>
+                            </Col>
+                            <div style={{backgroundColor: "white", paddingLeft: "50px"}}>
+                                <div className={classes.testText}>
+                                <h6>Venus’s research pipeline consists of innovative solutions that promise to address some of the world's most challenging issues, including Antimicrobial Resistance, Cancer, and Pain.</h6>
+                                </div>
+                                <div className={classes.name}>
+                                  <h4>Dr. Manu Chaudhary </h4>
+                                  <p>Joint Managing Director,</p>
+                                  <p>Venus Remedies Limited</p>
+                                </div>
+                            </div>
+                            
+                        </Row>
+                    </Container>
+                    <button className={classes.bar2}/>
                     </div>  
 
+                    <div>
+                    <Container>
+                          <Row xs="2" noGutters >
+                            <Col>
+                                <img src={TEST} style={{width: "100%"}}/>
+                            </Col>
+                            <div style={{backgroundColor: "white", paddingLeft: "50px"}}>
+                                <div className={classes.testText}>
+                                <h6>Venus’s research pipeline consists of innovative solutions that promise to address some of the world's most challenging issues, including Antimicrobial Resistance, Cancer, and Pain.</h6>
+                                </div>
+                                <div className={classes.name}>
+                                  <h4>Dr. Manu Chaudhary </h4>
+                                  <p>Joint Managing Director,</p>
+                                  <p>Venus Remedies Limited</p>
+                                </div>
+                            </div>
+                        </Row>
+                    </Container>
+                    <button className={classes.bar3}/>
+                    </div>  
             </Carousel>
         </div>
     )

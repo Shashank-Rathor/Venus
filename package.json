@@ -21,8 +21,10 @@
     "react-multi-carousel": "^2.6.5",
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
     "react-twitter-widgets": "^1.10.0",
     "reactstrap": "^9.0.1",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.3",
     "web-vitals": "^1.1.2"
   },

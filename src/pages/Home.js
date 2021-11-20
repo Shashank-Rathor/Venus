@@ -20,6 +20,8 @@ import Collab from '../components/Collab/Collab';
 import Blogs from '../components/Blogs/Blogs';
 import Focus from '../components/Focus/Focus';
 import Testimonial  from '../components/Testimonial/Testimonial';
+import ICON from '../assets/images/testIcon.png';
+import ELLIPSE from '../assets/images/Ellipse.png';
 import { Container,Col,Row,CardBody } from 'reactstrap';
 import { Timeline } from 'react-twitter-widgets'
 import { Facebook, Instagram, KeyboardArrowRight, MailOutline, Phone, Pinterest, Room, Twitter, YouTube } from "@material-ui/icons";
@@ -260,7 +262,10 @@ const Home = (props) => {
            </div>
             
             <div className={classes.testimonial}>
+                <img className={classes.testIcon} src={ICON}/>
+                <img className={classes.ellipse} src={ELLIPSE}/>
               <Testimonial/>
+              <hr className={classes.bar1}/>
             </div>
           
            <Blogs/>
