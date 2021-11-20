@@ -22,6 +22,7 @@ import Focus from '../components/Focus/Focus';
 import Testimonial  from '../components/Testimonial/Testimonial';
 import ICON from '../assets/images/testIcon.png';
 import ELLIPSE from '../assets/images/Ellipse.png';
+import ELLIPSE2 from '../assets/images/Ellipse2.png';
 import { Container,Col,Row,CardBody } from 'reactstrap';
 import { Timeline } from 'react-twitter-widgets'
 import { Facebook, Instagram, KeyboardArrowRight, MailOutline, Phone, Pinterest, Room, Twitter, YouTube } from "@material-ui/icons";
@@ -108,7 +109,7 @@ const Home = (props) => {
                 </div>
             </div>
 
-            
+            <div style={{position: "relative"}}>
             <Container className={classes.serviceContainer}>
                 <Row xs="3">
                     <Col>
@@ -127,10 +128,12 @@ const Home = (props) => {
                     <div className={classes.serviceimageDiv}>
                     <img src={image3} className={classes.serviceImage}/>
                     </div>
-                    <h3>Responsibilities</h3>
                     </Col>
                 </Row>
             </Container>
+            
+            <img className={classes.ellipse2} src={ELLIPSE2}/>
+            </div>
 
             <div className={classes.banner2}>
                 <p>WE ARE SPREAD ACROSS</p>
