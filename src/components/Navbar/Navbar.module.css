@@ -34,3 +34,8 @@
     font-style:normal;
     font-size: 20px;
     }
+    .menuBar{
+        margin-top: 5px;
+        cursor: pointer;
+        color: #D70D32;
+    }

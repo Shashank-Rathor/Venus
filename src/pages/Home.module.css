@@ -351,3 +351,12 @@ left: -300px;
 bottom: -300px;
 z-index: 2;
 }
+.ellipse3{
+overflow: hidden;
+position: absolute;
+width: 600px;
+height: 700px;
+right: 0;
+bottom: 0;
+z-index: 2;
+}

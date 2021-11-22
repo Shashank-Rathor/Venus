@@ -67,7 +67,8 @@ const Home = (props) => {
             </div>
 
 
-            <div style={{overflow: 'hidden'}}>
+            <div style={{ position: "relative"}}>
+                <img className={classes.ellipse3} src={ELLIPSE}/>
                 <p className={classes.text2}>TRENDING TOPICS</p>
                 <div style={{marginLeft: '100px'}}>
                     <Carousel
