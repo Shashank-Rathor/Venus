@@ -23,7 +23,7 @@ import Testimonial  from '../components/Testimonial/Testimonial';
 import ICON from '../assets/images/testIcon.png';
 import ELLIPSE from '../assets/images/Ellipse.png';
 import ELLIPSE2 from '../assets/images/Ellipse2.png';
-import { Container,Col,Row,CardBody } from 'reactstrap';
+import { Container,Col,Row,CardBody,UncontrolledPopover, PopoverHeader, PopoverBody} from 'reactstrap';
 import { Timeline } from 'react-twitter-widgets'
 import { Facebook, Instagram, KeyboardArrowRight, MailOutline, Phone, Pinterest, Room, Twitter, YouTube } from "@material-ui/icons";
 
@@ -58,7 +58,19 @@ const Home = (props) => {
                     <p className={classes.text1} >
                     in the era of<br/>
                     COVID-19</p>
-                <button className={classes.button1}>Know More</button>
+                <button id="PopoverFocus" className={classes.button1}>Know More</button>
+                <UncontrolledPopover
+                    placement="bottom"
+                    target="PopoverFocus"
+                    trigger="focus"
+                >
+                    <PopoverHeader>
+                    Focus Trigger
+                    </PopoverHeader>
+                    <PopoverBody>
+                    Focusing on the trigging element makes this popover appear. Blurring (clicking away) makes it disappear. You cannot select this text as the popover will disappear when you try.
+                    </PopoverBody>
+                </UncontrolledPopover>
 
                 </div>
                 <div className={classes.headimg}>

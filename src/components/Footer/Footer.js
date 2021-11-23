@@ -1,4 +1,4 @@
-import { Facebook, Instagram, KeyboardArrowRight, MailOutline, Phone, Pinterest, Room, Twitter } from "@material-ui/icons";
+import { Facebook, Instagram, KeyboardArrowRight, Pinterest, Room, Twitter } from "@material-ui/icons";
 import styled from "styled-components";
 import { mobile } from "../../responsive";
 import LOGO from '../../assets/images/logo.png';
