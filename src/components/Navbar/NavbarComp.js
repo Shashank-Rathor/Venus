@@ -10,11 +10,13 @@ import RESP from '../../assets/images/icons/responsibility.png';
 import INVEST from '../../assets/images/icons/investors.png';
 import SEARCH from '../../assets/images/icons/search.png';
 import CONTACT from '../../assets/images/icons/search.png';
+import MODAL from '../modal/modal';
+
 
 
 export const NavbarComp = () => {
   
-  const [openPanel, setOpenPanel] = useState(false);
+  const [open,setOpen] = useState(false);
 
   return (
     <div className={classes.wrapper}>
@@ -54,7 +56,7 @@ export const NavbarComp = () => {
                         <img src={INVEST} className={classes.toggleMenu}/>
                         Investors
                         </Dropdown.Item>
-                      <Dropdown.Item href="#/action-3" style={{fontSize: "15px"}}>
+                      <Dropdown.Item onClick={(e) => setOpen(true)}style={{fontSize: "15px"}}>
                       <img src={CONTACT} className={classes.toggleMenu}/>
                         Contact Us
                         </Dropdown.Item>
@@ -68,6 +70,7 @@ export const NavbarComp = () => {
                         </div>
                     </Dropdown.Menu>
                   </Dropdown>
+                  {open ? <MODAL setOpen={setOpen}/> : null}
                 </li>
                 <li><a href="#">AMR</a></li>
                 <li><a href="#">Researchers</a></li>
